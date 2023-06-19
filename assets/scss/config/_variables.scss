@@ -1,0 +1,19 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+:root{
+   /*========== Colors ==========*/
+   /*Color mode HSL(hue, saturation, lightness)*/
+   --gradient-color: linear-gradient(90deg,
+                     hsl(48, 100%, 50%) 0%,
+                     hsl(28, 100%, 54%, 100%));
+   --black-color: hsl(225, 15%, 6%);
+   --reflection-color: hsla(48, 30%, 95%, .3);
+   --body-color: hsl(48, 100%, 98%);
+
+   /*========== Font and typography ==========*/
+   /*.5rem = 8px | 1rem = 16px ...*/
+   --body-font: 'Montserrat', sans-serif;
+   --normal-font-size: 1rem;
+}
